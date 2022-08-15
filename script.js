@@ -70,4 +70,5 @@ function confirmrequest() {
         const numeroAtendimento = '5542998645096'
         const linkZapvac = `https://wa.me/${numeroAtendimento}?text=${msg}`
         window.open(linkZapvac);
+        location. reload()
 }
